@@ -6,7 +6,7 @@ fn main(){
         "Tomato".to_string()
     ];
 
-    for a in array{
+    for a in array.iter(){
         println!("{}", a);
     }
     println!("len={}", array.len());
